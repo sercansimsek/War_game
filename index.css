@@ -28,3 +28,18 @@ button.draw {
 	font-size: 1.2em;
 	padding: 5px;
 }
+
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.card-placeholder {
+	width: 150px;
+	height: 210px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
